@@ -1,0 +1,29 @@
+@media(max-width:703px){
+    body{
+        padding: 20px;
+    }
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        .header_elements{
+            display: contents;
+            .span{
+                align-self: center;
+                font-size: 25px;
+            }
+        }
+    }
+    .encabezado__navbar > ul{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        
+    }
+
+}

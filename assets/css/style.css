@@ -1,0 +1,217 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 40px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  margin-bottom: 40px;
+}
+.header .img_header img {
+  height: 120px;
+  width: 120px;
+}
+.header .header_elements {
+  align-self: center;
+}
+.header .header_elements .span {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #191A1D;
+  height: 70px;
+}
+.header .header_elements .span::after {
+  background-color: #4B6CC1;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 7px;
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.header .encabezado__navbar > ul {
+  display: flex;
+  gap: 25px;
+}
+.header .encabezado__navbar > ul li {
+  list-style: none;
+}
+.header .encabezado__navbar > ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #5E5E5E;
+  text-transform: uppercase;
+}
+.header .encabezado__navbar > ul li a:hover {
+  transition: all 200ms;
+  color: #4B6CC1;
+}
+
+.box__textpresentation {
+  background-color: #F1F8FA;
+  border-radius: 5px;
+  padding: 40px;
+}
+.box__textpresentation p {
+  font-family: "Rubik", sans-serif;
+  font-size: 44px;
+  color: #191A1D;
+  font-weight: 400;
+}
+.box__textpresentation h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  color: #191A1D;
+  font-weight: 300;
+  margin: 15px 0px 0px;
+  line-height: 175%;
+}
+.box__textpresentation h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  color: #191A1D;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+@media (max-width: 460px) {
+  body {
+    padding: 20px;
+  }
+  .header {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header .img_header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .header .img_header img {
+    height: 90px;
+    width: 90px;
+  }
+  .header .header_elements {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .header .header_elements .span h3 {
+    text-align: center;
+    font-size: 24px;
+  }
+  .header .header_elements .span::after {
+    width: 100%;
+  }
+  .encabezado__navbar ul {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .encabezado__navbar ul li {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box__textpresentation p {
+    font-size: 28px;
+  }
+  .box__textpresentation h1, .box__textpresentation h2 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1100px) {
+  body {
+    margin: 50px;
+    padding: 40px;
+  }
+}
+@media (max-width: 703px) {
+  body {
+    padding: 20px;
+  }
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .header img {
+    height: 100px;
+    width: 100px;
+  }
+  .header .header_elements {
+    display: contents;
+  }
+  .header .header_elements .span {
+    align-self: center;
+    font-size: 25px;
+  }
+  .encabezado__navbar > ul {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+.aboutme {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.aboutme .container_knowledge_and_profile {
+  background-color: #F1F8FA;
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+  width: 25%;
+}
+.aboutme .container_knowledge_and_profile:hover {
+  /*https://www.youtube.com/watch?v=_xkgrfRBdZM&t=5s*/
+  background-color: #eef7f9;
+}
+.aboutme .container_knowledge_and_profile > h4 {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  color: #191A1D;
+  font-weight: 300;
+  margin: 15px 0px 0px;
+  line-height: 175%;
+}
+.aboutme .container_knowledge_and_profile ul > li {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  color: #191A1D;
+  font-weight: 300;
+  margin: 15px 0px 0px;
+  line-height: 100%;
+  list-style: none;
+}
+.aboutme .container_knowledge_and_profile > h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  color: #191A1D;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.aboutme .container_knowledge_and_profile .fa-solid {
+  font-size: 30px;
+  background-color: #4B6CC1;
+  color: #F1F8FA;
+  padding: 20px;
+  border-radius: 50px;
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;    
+}
+
+body{
+    padding: 40px;
+}
+
+@import "headerynavbar";
+@import "mensajedepresentacion";
+@import "mq490comentado";
+@import "_mq1100pxcomentado";
+@import "mq703comentado";
+@import "aboutme";
