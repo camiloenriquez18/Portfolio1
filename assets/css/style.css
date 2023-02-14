@@ -180,8 +180,9 @@ body {
   width: 25%;
 }
 .aboutme .container_knowledge_and_profile:hover {
-  /*https://www.youtube.com/watch?v=_xkgrfRBdZM&t=5s*/
   background-color: #eef7f9;
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 .aboutme .container_knowledge_and_profile > h4 {
   font-family: "Rubik", sans-serif;
