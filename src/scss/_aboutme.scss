@@ -1,20 +1,14 @@
 .aboutme {
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
     justify-content: space-around;
     .container_knowledge_and_profile{
         background-color:#F1F8FA;
         margin: 30px;
         padding: 20px;
         text-align: center;
-        width: 25%;
-        &:hover{
-            
-            background-color: #eef7f9;
-            transform: scale(1.1);
-            transition: 0.5s;
-        }
-        >h4 {
+        width: 400px;
+        h4 {
             font-family: 'Rubik', sans-serif;
             font-size: 16px;
             color: #191A1D;;
@@ -28,21 +22,21 @@
             color: #191A1D;;
             font-weight: 300;
             margin: 15px 0px 0px;
-            line-height: 100%;
+            line-height: 70%;
             list-style: none;
         }
-        >h3{
+        h3{
             font-family: 'Rubik', sans-serif;
-            font-size: 24px;
+            font-size: 18px;
             color: #191A1D;;
             font-weight: 400;
             margin-top: 5px;
         }
         .fa-solid {
-            font-size: 30px;
+            font-size: 20px;
             background-color: #4B6CC1;
             color: #F1F8FA;
-            padding: 20px;
+            padding: 10px;
             border-radius: 50px;
             margin: 10px;
         }

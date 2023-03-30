@@ -35,6 +35,7 @@
     .encabezado__navbar > ul{
         display: flex;
         gap: 25px;
+        align-items: center;
         li{
             list-style: none;
             a{
